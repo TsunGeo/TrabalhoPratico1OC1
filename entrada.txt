@@ -1,0 +1,7 @@
+lw x2, 0(x1)
+sw x2, 4(x1)
+sub x3, x2, x1
+xor x4, x3, x2
+addi x5, x4, 10
+srl x6, x5, x2
+beq x6, x0, 8
